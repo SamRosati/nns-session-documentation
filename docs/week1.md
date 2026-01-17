@@ -14,9 +14,13 @@ In order to explain the idea I created, I think it makes most sense to explain t
 
 ### The Problem ###
 
-In the beach volleyball community in Vancouver, there are several different organizations spanning from **very casual** (group chats with a few friends) to **very formal** (official provincial organization). The official organizations have legacy software that they use to register players for their tournaments, however the system has terrible UI / UX design, and it doesn't solve any of the actual tournament-day automation.
+In the beach volleyball community in Vancouver, there are several different organizations spanning from **very casual** (group chats with a few friends) to **very formal** (official provincial organization). The official organizations use legacy software for registrations for their tournaments, however the system has poor UI / UX design, and it doesn't solve any of the actual tournament-day automation.
 
-Although solving the registration aspect for tournaments is valuable, there is much more that can be done to make running tournaments less frustrating and free up time for organizers to focus on challenges that can't be automated. For example, automating the process of seeding players that register for a given tournament, creating the round robin match ups, creating the playoff brackets, results tracking, etc...
+Although solving the registration aspect for tournaments is valuable, there is much more that can be done to make running tournaments less frustrating and free up time for organizers to focus on challenges that can't be automated. For example, automating the process of seeding players that register for a given tournament, creating the seeding round match ups, creating the playoff brackets, results tracking, and providing a way for players to move from one tournament to another with a standardized point collection system is something that existing solutions lack.
+
+### The proposed solution ###
+
+The solution I want to create will address many of the problems. The main focus of the app will be to develop a tool for organizers that makes running tournaments much easier and saves organizers time. It will take care of registrations, pool creation, seeding game creation, provide a way for players to input scores on their phones so that organizers don't need to chase players around the beach after each game, create playoff brackets, and track the data associated with every player's wins and losses to provide statistics for each player.
 
 ## why you chose this ##
 
@@ -27,6 +31,8 @@ I chose to pursue building a volleyball tournament automation software for a few
 - I noticed that many other tournament organizers were struggling with the same problems.
 
 - I saw this problem as a perfect opportunity to develop new skills as a software engineer and potentially start a business while doing so.
+
+- I'm very passionate about beach volleyball, and I wanted to build something cool for the community I'm involved in.
 
 ## Are you working alone or in a team? Why? ##
 

@@ -1,4 +1,4 @@
-# Week 1 #
+# Week 1 - Jan 14 2026 #
 
 ## What were you tasked to do? ##
 
@@ -20,7 +20,9 @@ Although solving the registration aspect for tournaments is valuable, there is m
 
 ### The proposed solution ###
 
-The solution I want to create will address many of the problems. The main focus of the app will be to develop a tool for organizers that makes running tournaments much easier and saves organizers time. It will take care of registrations, pool creation, seeding game creation, provide a way for players to input scores on their phones so that organizers don't need to chase players around the beach after each game, create playoff brackets, and track the data associated with every player's wins and losses to provide statistics for each player.
+The solution I want to create will be a software platform that organizes data in the volleyball community, and connects athletes with organizers and coaches. Initially, the main focus of the app will be to develop a tool for organizers that makes running tournaments much easier and saves organizers time. It will take care of registrations, pool creation, seeding game creation, provide a way for players to input scores on their phones so that organizers don't need to chase players around the beach after each game, create playoff brackets, and track the data associated with every player's wins and losses to provide statistics for each player.
+
+Once the tournament automation aspect of the platform is functional, reliable, and deemed useful by the community, further features will be developed to connect athletes with each other as well as with coaches. Statistics tracking for competitive players who want to carry their points between different tournament series and compete for semi-professional or professional-level tournament entries will be provided with a standardized point system which will allow them to be recognized by organizations such as VolleyballBC, or the FIVB.
 
 ## why you chose this ##
 

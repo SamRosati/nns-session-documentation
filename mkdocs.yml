@@ -1,4 +1,4 @@
-site_name: NNS Session Documentation
+site_name: NNS Session Docs
 site_url: https://sitename.example
 theme:
   name: material
@@ -13,7 +13,7 @@ theme:
       toggle:
         icon: octicons/sun-16
         name: Dark mode
-      primary: blue grey
+      primary: black
       accent: deep purple
 
     # Light Mode

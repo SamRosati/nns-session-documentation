@@ -13,7 +13,7 @@ theme:
       toggle:
         icon: octicons/sun-16
         name: Dark mode
-      primary: black
+      primary: indigo
       accent: deep purple
 
     # Light Mode

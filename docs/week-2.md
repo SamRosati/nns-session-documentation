@@ -26,5 +26,7 @@ SportLoMo is designed to manage sports, and it is what VolleyballBC currently us
 - Usable: SportLoMo is usable, but the User Interface could be improved, especially for mobile.
 - Findable: One of the frustrations with using SportLoMo is that searching for the league or tournament that you want to register for is very difficult. There is no search functionality, so you have to scroll through pages until you find what you want.
 - Credible: SportLoMo has some credibility, since organizations like VolleyballBC use it, however I would not call it extremely credible, given its 3.5/5 star rating on google.
+![SportLoMo Google Rating](./assets/SportLoMoGoogleRating.png)
+
 - Accessible: I believe SportLoMo’s accessibility could improve, although there is nothing inherently inaccessible.
 - Valuable: The provides some value in that it takes care of registrations, however its attempt to solve all sports rather than just picking one that it serves well makes it less valuable than it could be in my eyes.

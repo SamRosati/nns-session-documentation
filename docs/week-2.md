@@ -30,3 +30,33 @@ SportLoMo is designed to manage sports, and it is what VolleyballBC currently us
 
 - Accessible: I believe SportLoMo’s accessibility could improve, although there is nothing inherently inaccessible.
 - Valuable: The provides some value in that it takes care of registrations, however its attempt to solve all sports rather than just picking one that it serves well makes it less valuable than it could be in my eyes.
+
+## Market Research ##
+
+I have selected **SportLoMo** (as the local incumbent used by VolleyballBC) and **Volleyball Life** (as the closest direct feature competitor for a modern beach volleyball platform)
+
+## SportLoMo ##
+
+SportLoMo is a large, enterprise-grade sports management platform primarily designed for national and provincial governing bodies (like Volleyball Canada and Volleyball BC). It excels at “official” administration, handling complex membership tiers, insurance compliance, referee assigning, and linking provincial data to national databases. Because it is the “official” choice, its biggest strength is its ecosystem lock-in. If you want to play in a Volleyball BC tournament, you must use it, guaranteeing a user base.
+
+Its weaknesses however are significant, particularly in User Experience. Users frequently report that the interface is not intuitive, dated, and clunky. It feels more bureaucratic, rather than social. The mobile app has very low ratings due to bugs and poor usability. It is built as a database tool for administrators first and a players app second, meaning it lacks the social glue and easy discovery of events that an app like NNS Session could offer.
+
+## Volleyball Life ##
+
+Volleyball Life is likely the strongest functional competitor in the beach volleyball space. Unlike generic team apps, it is build specifically for beach volleyball culture. It’s “TruVolley” rating system tracks individual player rankings, rather than just team wins, using a modified Glicko algorithm. It also leans heavily into the ”career” aspect of the sport, offering robust recruiting tools for juniors to connect with college coaches and public player profiles that feel like a social media resume.
+
+The downside lie in its complexity and cost model. It pushes a premium subscription for advanced features like recruiting profiles and video highlights, which feel aggressive for casual adult players who just want to find a game. Additionally, while it is dominant in the US, it is not used in the Canadian social scene.
+
+## Takeaways ##
+
+After discovering Volleyball Life, I became worried. Discovering what this platform is advertized as being able to do is scary as someone who is trying to develop something very similar, and I did not think that there was already something like that our there.
+
+That being said, I have a pretty biased way of dealing with this problem, which is to continue building my idea for the following reasons:
+
+- Even if this is unsucessful from a business prospective, it will still be a very valuable portfolio piece.
+
+- I believe that any product can be improved. If something already exists in the space I need to build, I just need to make my version better.
+
+In order to address this problem and discover what the gaps are in the market for a volleyball software platform, I used an LLM to reference my codebase, and asked it this question.
+
+

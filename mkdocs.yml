@@ -1,5 +1,5 @@
 site_name: NNS Session Docs
-site_url: https://sitename.example
+site_url: https://samrosati.github.io/nns-session-documentation/
 theme:
   name: material
   logo: assets/NNSsessionLogoDarkMode.png

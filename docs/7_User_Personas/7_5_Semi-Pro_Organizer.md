@@ -2,11 +2,11 @@
 
 ## Profile
 
-**Name:** Marcus Zhao
-**Age:** 34
-**Occupation:** Entrepreneur / League Owner
-**Location:** Regional Hub (e.g., Seattle, Denver)
-**Tech Proficiency:** High. Uses CRMs, Mailchimp, and spreadsheets aggressively.
+- **Name:** Marcus Zhao
+- **Age:** 34
+- **Occupation:** Entrepreneur / League Owner
+- **Location:** Regional Hub (e.g., Seattle, Denver)
+- **Tech Proficiency:** High. Uses CRMs, Mailchimp, and spreadsheets aggressively.
 
 ## Empathy Map
 

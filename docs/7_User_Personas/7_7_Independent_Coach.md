@@ -2,11 +2,11 @@
 
 ## Profile
 
-**Name:** Kelly Johnson
-**Age:** 28
-**Occupation:** Volleyball Coach / Part-time Server
-**Location:** Urban Beach Hub (e.g., Toronto, Chicago)
-**Tech Proficiency:** Moderate. Living on phone managing clients.
+- **Name:** Kelly Johnson
+- **Age:** 28
+- **Occupation:** Volleyball Coach / Part-time Server
+- **Location:** Urban Beach Hub (e.g., Toronto, Chicago)
+- **Tech Proficiency:** Moderate. Living on phone managing clients.
 
 ## Empathy Map
 

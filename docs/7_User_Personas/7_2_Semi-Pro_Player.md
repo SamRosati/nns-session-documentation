@@ -2,11 +2,11 @@
 
 ## Profile
 
-**Name:** Tyler Kowalski
-**Age:** 23
-**Occupation:** Personal Trainer / Student
-**Location:** Santa Monica, CA (or serious Vancouver scene)
-**Tech Proficiency:** Moderate. Uses apps for utility (workouts, nutrition, scheduling).
+- **Name:** Tyler Kowalski
+- **Age:** 23
+- **Occupation:** Personal Trainer / Student
+- **Location:** Santa Monica, CA (or serious Vancouver scene)
+- **Tech Proficiency:** Moderate. Uses apps for utility (workouts, nutrition, scheduling).
 
 ## Empathy Map
 

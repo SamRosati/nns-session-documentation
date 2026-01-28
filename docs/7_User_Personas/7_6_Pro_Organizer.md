@@ -2,11 +2,11 @@
 
 ## Profile
 
-**Name:** Dan Reynolds
-**Age:** 45
-**Occupation:** International Event Director (FIVB / AVP)
-**Location:** Global (Gstaad, Rio, Doha)
-**Tech Proficiency:** Low to Moderate. Relies on staff. "It just needs to work on TV."
+- **Name:** Dan Reynolds
+- **Age:** 45
+- **Occupation:** International Event Director (FIVB / AVP)
+- **Location:** Global (Gstaad, Rio, Doha)
+- **Tech Proficiency:** Low to Moderate. Relies on staff. "It just needs to work on TV."
 
 ## Empathy Map
 

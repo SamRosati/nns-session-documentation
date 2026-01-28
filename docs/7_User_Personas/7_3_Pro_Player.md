@@ -2,17 +2,19 @@
 
 ## Profile
 
-**Name:** Melissa Humana-Peredes
-**Age:** 31
-**Occupation:** Professional Athlete
-**Location:** International Circuit
-**Tech Proficiency:** Functional. Uses social media for brand building, not just fun.
+![alt text](image.png)
+
+- **Name:** Melissa Humana-Peredes
+- **Age:** 31
+- **Occupation:** Professional Athlete
+- **Location:** International Circuit
+- **Tech Proficiency:** Functional. Uses social media for brand building, not just fun.
 
 ## Empathy Map
 
 ### Characteristics
 
-Elena is the pinnacle. She doesn't need to "find" games; games happen around her. Her time is her most valuable asset. She cares about *efficiency* and *brand*. She is often mobbed by fans or lower-level players wanting advice. She needs boundaries but also wants to give back (and monetize her expertise).
+Melissa is the pinnacle. She doesn't need to "find" games; games happen around her. Her time is her most valuable asset. She cares about *efficiency* and *brand*. She is often mobbed by fans or lower-level players wanting advice. She needs boundaries but also wants to give back (and monetize her expertise).
 
 ### Behaviors
 

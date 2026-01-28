@@ -2,7 +2,7 @@
 
 ## Profile
 
-![alt text](image.png)
+![alt text](image.png#w300)
 
 - **Name:** Melissa Humana-Peredes
 - **Age:** 31

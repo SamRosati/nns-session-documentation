@@ -4,7 +4,7 @@
 
 ![alt text](rhiannonSmile.jpg)
 
-- **Name:** Sophie "Social" Smith
+- **Name:** Sophie Smith
 - **Age:** 26
 - **Occupation:** Marketing Coordinator
 - **Location:** Kitsilano, Vancouver

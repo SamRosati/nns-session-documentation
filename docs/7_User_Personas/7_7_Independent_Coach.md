@@ -2,7 +2,7 @@
 
 ## Profile
 
-**Name:** Coach Kelly "Clinic" Johnson
+**Name:** Kelly Johnson
 **Age:** 28
 **Occupation:** Volleyball Coach / Part-time Server
 **Location:** Urban Beach Hub (e.g., Toronto, Chicago)

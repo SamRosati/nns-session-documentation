@@ -1,8 +1,8 @@
-# 7.2 User Persona: The Semi-Pro Grinder
+# 7.2 User Persona: The Semi-Pro Athlete
 
 ## Profile
 
-**Name:** Tyler "The Tank" Kowalski
+**Name:** Tyler Kowalski
 **Age:** 23
 **Occupation:** Personal Trainer / Student
 **Location:** Santa Monica, CA (or serious Vancouver scene)

@@ -1,8 +1,8 @@
-# 7.3 User Persona: The Professional
+# 7.3 User Persona: The Professional Athlete
 
 ## Profile
 
-**Name:** Sarah Pavan-Like (Persona) -> "Elena Pro"
+**Name:** Melissa Humana-Peredes
 **Age:** 31
 **Occupation:** Professional Athlete
 **Location:** International Circuit

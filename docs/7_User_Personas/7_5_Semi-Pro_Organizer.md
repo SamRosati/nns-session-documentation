@@ -1,8 +1,8 @@
-# User Persona: The Semi-Pro Organizer (The Empire Builder)
+# User Persona: The Semi-Pro Organizer
 
 ## Profile
 
-**Name:** Marcus "The Mogul" Zhao
+**Name:** Marcus Zhao
 **Age:** 34
 **Occupation:** Entrepreneur / League Owner
 **Location:** Regional Hub (e.g., Seattle, Denver)

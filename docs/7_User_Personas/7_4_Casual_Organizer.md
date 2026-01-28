@@ -1,10 +1,10 @@
-# 7.4 User Persona: The "Side Gig" Organizer
+# 7.4 User Persona: Casual Organizer
 
 ## Profile
 
 ![alt text](../assets/hamishBlockSignals.jpg)
 
-- **Name:** Chris "Community" Lee
+- **Name:** Chris Lee
 - **Age:** 29
 - **Occupation:** Software Engineer
 - **Location:** Kitsilano, Vancouver

@@ -2,7 +2,7 @@
 
 ## Profile
 
-**Name:** Dan "The Director" Reynolds
+**Name:** Dan Reynolds
 **Age:** 45
 **Occupation:** International Event Director (FIVB / AVP)
 **Location:** Global (Gstaad, Rio, Doha)

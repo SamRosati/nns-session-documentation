@@ -107,28 +107,28 @@ Tools for coaching and casual play.
 
 In the App Router, data fetching is primarily performed on the server.
 
-1.  **Request**: User navigates to a page (e.g., `/tournaments`).
-2.  **Server Component**: The page component (`page.tsx`) requests data directly from Supabase/DB using helper functions or direct queries.
-3.  **Rendering**: Next.js renders the component tree with the fetched data into HTML/RSC payload.
-4.  **Response**: The client receives the pre-rendered HTML for fast First Contentful Paint (FCP).
+1. **Request**: User navigates to a page (e.g., `/tournaments`).
+2. **Server Component**: The page component (`page.tsx`) requests data directly from Supabase/DB using helper functions or direct queries.
+3. **Rendering**: Next.js renders the component tree with the fetched data into HTML/RSC payload.
+4. **Response**: The client receives the pre-rendered HTML for fast First Contentful Paint (FCP).
 
 ### Client-Side Interactivity & Updates
 
 For interactive features and updates:
 
-1.  **Interaction**: User clicks "Register" or updates a score.
-2.  **Server Action**: A Server Action (`src/actions/*`) is invoked.
-3.  **Mutation**: The action validates input (Zod) and updates the database via Supabase.
-4.  **Revalidation**: The action calls `revalidatePath` to refresh the cached data.
-5.  **UI Update**: The client UI updates automatically to reflect the new state without a full page reload.
+1. **Interaction**: User clicks "Register" or updates a score.
+2. **Server Action**: A Server Action (`src/actions/*`) is invoked.
+3. **Mutation**: The action validates input (Zod) and updates the database via Supabase.
+4. **Revalidation**: The action calls `revalidatePath` to refresh the cached data.
+5. **UI Update**: The client UI updates automatically to reflect the new state without a full page reload.
 
 ### Real-time Updates
 
 For critical live features like Tournament Scores:
 
-1.  **Subscription**: Client components subscribe to Supabase Realtime channels (e.g., `matches` table changes).
-2.  **Event**: When a score is updated in the DB, Supabase broadcasts an event.
-3.  **Update**: The client subscription handler receives the delta and updates the local React Query cache or Zustand store, triggering an immediate UI re-render.
+1. **Subscription**: Client components subscribe to Supabase Realtime channels (e.g., `matches` table changes).
+2. **Event**: When a score is updated in the DB, Supabase broadcasts an event.
+3. **Update**: The client subscription handler receives the delta and updates the local React Query cache or Zustand store, triggering an immediate UI re-render.
 
 ## Security & Privacy
 
@@ -139,11 +139,11 @@ For critical live features like Tournament Scores:
 
 ## Performance Optimization Strategy
 
-1.  **Route Groups & Layouts**: Efficiently organizing routes to minimize re-rendering of shared layouts.
-2.  **Image Optimization**: Using `next/image` for automatic resizing, lazy loading, and format conversion (WebP/AVIF).
-3.  **Code Splitting**: Automatic splitting of JavaScript bundles by route to reduce initial load size.
-4.  **Dynamic Imports**: Lazily loading heavy components (e.g., Charts, Maps) only when they are needed.
-5.  **Prefetching**: Next.js `Link` component prefetches viewport routes for near-instant navigation.
+1. **Route Groups & Layouts**: Efficiently organizing routes to minimize re-rendering of shared layouts.
+2. **Image Optimization**: Using `next/image` for automatic resizing, lazy loading, and format conversion (WebP/AVIF).
+3. **Code Splitting**: Automatic splitting of JavaScript bundles by route to reduce initial load size.
+4. **Dynamic Imports**: Lazily loading heavy components (e.g., Charts, Maps) only when they are needed.
+5. **Prefetching**: Next.js `Link` component prefetches viewport routes for near-instant navigation.
 
 ## Future Considerations
 

@@ -35,30 +35,34 @@ We use two distinct modes of AI interaction depending on the task complexity.
 ### Track A: The "Architect & Delegate" (Manager Mode)
 *Use for: New features, Refactors, Database Schema changes.*
 
-1.  **Open Agent Manager:** Do not write this code yourself.
-2.  **Define the Spec:** Prompt the agent with the "What" and the "Why."
+1. **Open Agent Manager:** Do not write this code yourself.
+2. **Define the Spec:** Prompt the agent with the "What" and the "Why."
     * *Example:* "Create a new entity for 'TournamentSeeding'. It needs to link to Users and Tournaments. Update the ERD first, then generate the migration and the API endpoint."
-3.  **Review the Plan:** Force the agent to output a **Task List** before writing code. Review this list for architectural flaws (e.g., circular dependencies).
-4.  **Parallel Execution:** While the Agent implements the Backend logic, you (the human) can work on the Frontend design, or spawn a secondary Agent to generate the TypeScript types.
+3. **Review the Plan:** Force the agent to output a **Task List** before writing code. Review this list for architectural flaws (e.g., circular dependencies).
+4. **Parallel Execution:** While the Agent implements the Backend logic, you (the human) can work on the Frontend design, or spawn a secondary Agent to generate the TypeScript types.
 
 ### Track B: The "Pair Programmer" (Editor Mode)
 *Use for: UI tweaks, Bug fixes, CSS adjustments.*
 
-1.  **Inline Edits:** Use the inline command (`Cmd+K` equivalent) for immediate changes.
+1. **Inline Edits:** Use the inline command (`Cmd+K` equivalent) for immediate changes.
     * *Example:* "Refactor this component to use Tailwind Grid instead of Flexbox."
-2.  **Context Pinning:** If the edit relies on a parent component, explicitly "pin" that file in the chat so the AI sees the prop drilling structure.
+2. **Context Pinning:** If the edit relies on a parent component, explicitly "pin" that file in the chat so the AI sees the prop drilling structure.
 
 ---
 
 ## 4. Quality Assurance & Verification
 
 ### Browser Verification (Antigravity Exclusive)
+
 We utilize the IDE's headless browser capabilities to test "Happy Paths."
+
 * **Prompt:** "Run the app. Log in as a 'Tournament Organizer'. Create a dummy tournament named 'Test Beach 2026'. Verify that the 'Create' button redirects to the Dashboard."
 * **Why:** This catches integration bugs that unit tests often miss.
 
 ### The "Junior Dev" Review Rule
+
 Treat all AI-generated code as if it were written by a smart but inexperienced Junior Developer.
+
 * **Security Check:** Always verify that the AI handled authorization (e.g., `if (!user.isAdmin) return 401`). AI often forgets permission checks.
 * **Type Safety:** Verify that generated TypeScript interfaces match the actual API response structure.
 
@@ -68,10 +72,10 @@ Treat all AI-generated code as if it were written by a smart but inexperienced J
 
 When prompting the AI, adhere to the following structure to ensure domain specificity:
 
-1.  **Role:** "You are a Senior Full Stack Engineer specializing in Next.js and Real-time Systems."
-2.  **Context:** "We are building 'NNS Session', a beach volleyball app."
-3.  **Constraint:** "Use our existing `utils/db.ts` connection. Do not introduce new libraries unless necessary."
-4.  **Task:** [Specific Instruction]
+1. **Role:** "You are a Senior Full Stack Engineer specializing in Next.js and Real-time Systems."
+2. **Context:** "We are building 'NNS Session', a beach volleyball app."
+3. **Constraint:** "Use our existing `utils/db.ts` connection. Do not introduce new libraries unless necessary."
+4. **Task:** [Specific Instruction]
 
 **Example Prompt:**
 > "Context: NNS Session. We need to calculate player rankings.
@@ -83,5 +87,6 @@ When prompting the AI, adhere to the following structure to ensure domain specif
 ---
 
 ## 6. Future-Proofing
+
 * **Documentation-First:** Before asking the AI to code a complex feature, ask it to write the documentation for it. If the documentation makes sense, the code will likely follow suit.
 * **Snapshotting:** Periodically ask the AI to "Summarize the current state of the architecture" and save that as a `.md` file. This helps re-orient the AI if the chat context gets stale.

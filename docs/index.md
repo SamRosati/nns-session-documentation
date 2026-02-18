@@ -33,7 +33,7 @@ I architected NNS as a **server-first, edge-ready PWA** to deliver native-grade 
 
 ## Project Highlights
 
-* **Product Strategy**: Focusing on the specific needs of the "Tournament Tim" and "Director Dan" personas. See [Market Analysis](docs/2_Product_Strategy_&_Discovery/2_1_Market_Analysis.md) and [User Personas](docs/2_Product_Strategy_&_Discovery/2_2_User_Personas.md).
+* **Product Strategy**: Focusing on the specific needs of the "Tournament Organizer" "Athlete" and "Coach" personas. See [Market Analysis](docs/2_Product_Strategy_&_Discovery/2_1_Market_Analysis.md) and [User Personas](docs/2_Product_Strategy_&_Discovery/2_2_User_Personas.md).
 
 * **System Architecture**: A scalable Next.js + Supabase stack deployed via Firebase App Hosting. Deep dive in [High-Level Design](docs/3_System_Architecture/3_1_High-Level_Design.md).
 * **Feature Development**: Sophisticated modules including a [Skill Rating System](docs/4_Feature_Deep_Dives/4_1_Skill_Rating_System.md), [Tournaments Engine](docs/4_Feature_Deep_Dives/4_5_Tournaments.md), and [Social System](docs/4_Feature_Deep_Dives/4_3_Follower_&_Social_System.md).

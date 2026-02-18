@@ -24,35 +24,27 @@ theme:
 nav:
   - Home: index.md
   - Project Overview:
-    - Project Proposal: 1_Project_Overview/1_1_Project_Proposal.md
-    - Background & Context: 1_Project_Overview/1_2_Background_&_Context.md
+      - Project Proposal: 1_Project_Overview/1_1_Project_Proposal.md
+      - Background & Context: 1_Project_Overview/1_2_Background_&_Context.md
   - Product Strategy & Discovery:
-    - Market Analysis: 2_Product_Strategy_&_Discovery/2_1_Market_Analysis.md
-    - User Personas: 2_Product_Strategy_&_Discovery/2_2_User_Personas.md
+      - Market Analysis: 2_Product_Strategy_&_Discovery/2_1_Market_Analysis.md
+      - User Personas: 2_Product_Strategy_&_Discovery/2_2_User_Personas.md
   - System Architecture:
-    - High-Level Design: 3_System_Architecture/3_1_High-Level_Design.md
-    - Codebase Structure & Optimization: 3_System_Architecture/3_2_Codebase_Structure_&_Optimization.md
-    - Database Schema: 3_System_Architecture/3_3_Database_Schema.md
-    - Native Strategy: 3_System_Architecture/3_4_Native_Strategy.md
+      - High-Level Design: 3_System_Architecture/3_1_High-Level_Design.md
+      - Codebase Structure & Optimization: 3_System_Architecture/3_2_Codebase_Structure_&_Optimization.md
+      - Database Schema: 3_System_Architecture/3_3_Database_Schema.md
+      - Native Strategy: 3_System_Architecture/3_4_Native_Strategy.md
   - Feature Deep Dives:
-    - Skill Rating System: 4_Feature_Deep_Dives/4_1_Skill_Rating_System.md
-    - Tournament Wizard: 4_Feature_Deep_Dives/4_2_Tournament_Wizard.md
-    - Follower & Social System: 4_Feature_Deep_Dives/4_3_Follower_&_Social_System.md
-    - Clinics: 4_Feature_Deep_Dives/4_4_Clinics.md
-    - Tournaments: 4_Feature_Deep_Dives/4_5_Tournaments.md
-    - Sessions: 4_Feature_Deep_Dives/4_6_Sessions.md
-    - Messaging System: 4_Feature_Deep_Dives/4_7_Messaging_System.md
+      - Skill Rating System: 4_Feature_Deep_Dives/4_1_Skill_Rating_System.md
+      - Tournament Wizard: 4_Feature_Deep_Dives/4_2_Tournament_Wizard.md
+      - Follower & Social System: 4_Feature_Deep_Dives/4_3_Follower_&_Social_System.md
+      - Clinics: 4_Feature_Deep_Dives/4_4_Clinics.md
+      - Tournaments: 4_Feature_Deep_Dives/4_5_Tournaments.md
+      - Sessions: 4_Feature_Deep_Dives/4_6_Sessions.md
+      - Messaging System: 4_Feature_Deep_Dives/4_7_Messaging_System.md
   - Dev Log:
-    - Jan 2026: 5_Dev_Log/5_1_Jan_2026.md
+      - Jan 2026: 5_Dev_Log/5_1_Jan_2026.md
   - AI Strategy: 6_AI_Strategy/6_1_AI_Strategy
-  - User Personas:
-    - Casual Player: 7_User_Personas/7_1_Casual_Player.md
-    - Semi-Pro Player: 7_User_Personas/7_2_Semi-Pro_Player.md
-    - Pro Player: 7_User_Personas/7_3_Pro_Player.md
-    - Casual Organizer: 7_User_Personas/7_4_Casual_Organizer.md
-    - Semi-Pro Organizer: 7_User_Personas/7_5_Semi-Pro_Organizer.md
-    - Pro Organizer: 7_User_Personas/7_6_Pro_Organizer.md
-    - Independent Coach: 7_User_Personas/7_7_Independent_Coach.md
 
 markdown_extensions:
   - attr_list

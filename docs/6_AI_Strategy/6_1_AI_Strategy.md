@@ -21,18 +21,20 @@ We prioritize **Context Window** over **Retrieval (RAG)**. Because we are using 
 ### **The Protocol**
 
 * **No Fragmented Context:** Do not rely on the AI guessing which files are relevant. When starting a major feature (e.g., "Implement Double Elimination Brackets"), ensure the Agent has visibility of:
-    * The full `schema.sql` (or Prisma/ORM definition).
-    * The relevant Frontend Component logic.
-    * The Backend API route handlers.
+  * The full `schema.sql` (or Prisma/ORM definition).
+  * The relevant Frontend Component logic.
+  * The Backend API route handlers.
 * **External Knowledge Injection:** Since privacy is not a concern, we actively inject "Real World" context.
-    * *Action Item:* Upload the official **FIVB / KBVA Beach Volleyball Rules** as a PDF into the project context. The AI must understand "Sideout scoring" vs "Rally scoring" to write accurate logic.
+  * *Action Item:* Upload the official **FIVB / KBVA Beach Volleyball Rules** as a PDF into the project context. The AI must understand "Sideout scoring" vs "Rally scoring" to write accurate logic.
 
 ---
 
 ## 3. Workflow: The Two-Track System
+
 We use two distinct modes of AI interaction depending on the task complexity.
 
 ### Track A: The "Architect & Delegate" (Manager Mode)
+
 *Use for: New features, Refactors, Database Schema changes.*
 
 1. **Open Agent Manager:** Do not write this code yourself.
@@ -42,6 +44,7 @@ We use two distinct modes of AI interaction depending on the task complexity.
 4. **Parallel Execution:** While the Agent implements the Backend logic, you (the human) can work on the Frontend design, or spawn a secondary Agent to generate the TypeScript types.
 
 ### Track B: The "Pair Programmer" (Editor Mode)
+
 *Use for: UI tweaks, Bug fixes, CSS adjustments.*
 
 1. **Inline Edits:** Use the inline command (`Cmd+K` equivalent) for immediate changes.

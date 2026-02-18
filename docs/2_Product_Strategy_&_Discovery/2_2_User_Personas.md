@@ -1,1 +1,1 @@
-# 2.2 User Personas #
+# User Personas

@@ -24,7 +24,7 @@ It became clear that the volleyball community needed a modern software platform 
 
 I decided to create **NNS Session** to bridge these gaps.
 
-### The Problem
+## The Problem
 
 Existing official organizations use legacy software that frustrates users with poor design and fails to address tournament-day automation. Organizers are bogged down by repetitive tasks that should be automated, such as:
 
@@ -33,7 +33,7 @@ Existing official organizations use legacy software that frustrates users with p
 - Tracking results and compiling statistics.
 - Enabling players to carry standardized points between different tournament series.
 
-### The Proposed Solution
+## The Proposed Solution
 
 NNS Session is a software platform designed to organize data for the volleyball community while connecting athletes, organizers, and coaches.
 

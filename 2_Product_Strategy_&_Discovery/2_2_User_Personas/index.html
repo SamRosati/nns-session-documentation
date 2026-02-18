@@ -1,0 +1,1923 @@
+
+<!doctype html>
+<html lang="en" class="no-js">
+  <head>
+    
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width,initial-scale=1">
+      
+      
+      
+        <link rel="canonical" href="https://samrosati.github.io/nns-session-documentation/2_Product_Strategy_%26_Discovery/2_2_User_Personas/">
+      
+      
+        <link rel="prev" href="../2_1_Market_Analysis/">
+      
+      
+        <link rel="next" href="../../3_System_Architecture/3_1_High-Level_Design/">
+      
+      
+        
+      
+      
+      <link rel="icon" href="../../assets/NNSIconDarkOutline.png">
+      <meta name="generator" content="mkdocs-1.6.1, mkdocs-material-9.7.2">
+    
+    
+      
+        <title>User Personas - NNS Session Docs</title>
+      
+    
+    
+      <link rel="stylesheet" href="../../assets/stylesheets/main.484c7ddc.min.css">
+      
+        
+        <link rel="stylesheet" href="../../assets/stylesheets/palette.ab4e12ef.min.css">
+      
+      
+
+
+    
+    
+      
+    
+    
+      
+        
+        
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,300i,400,400i,700,700i%7CRoboto+Mono:400,400i,700,700i&display=fallback">
+        <style>:root{--md-text-font:"Roboto";--md-code-font:"Roboto Mono"}</style>
+      
+    
+    
+    <script>__md_scope=new URL("../..",location),__md_hash=e=>[...e].reduce(((e,_)=>(e<<5)-e+_.charCodeAt(0)),0),__md_get=(e,_=localStorage,t=__md_scope)=>JSON.parse(_.getItem(t.pathname+"."+e)),__md_set=(e,_,t=localStorage,a=__md_scope)=>{try{t.setItem(a.pathname+"."+e,JSON.stringify(_))}catch(e){}}</script>
+    
+      
+
+    
+    
+  </head>
+  
+  
+    
+    
+      
+    
+    
+    
+    
+    <body dir="ltr" data-md-color-scheme="slate" data-md-color-primary="indigo" data-md-color-accent="deep-purple">
+  
+    
+    <input class="md-toggle" data-md-toggle="drawer" type="checkbox" id="__drawer" autocomplete="off">
+    <input class="md-toggle" data-md-toggle="search" type="checkbox" id="__search" autocomplete="off">
+    <label class="md-overlay" for="__drawer"></label>
+    <div data-md-component="skip">
+      
+        
+        <a href="#user-personas" class="md-skip">
+          Skip to content
+        </a>
+      
+    </div>
+    <div data-md-component="announce">
+      
+    </div>
+    
+    
+      
+
+  
+
+<header class="md-header md-header--shadow" data-md-component="header">
+  <nav class="md-header__inner md-grid" aria-label="Header">
+    <a href="../.." title="NNS Session Docs" class="md-header__button md-logo" aria-label="NNS Session Docs" data-md-component="logo">
+      
+  <img src="../../assets/NNSsessionLogoDarkMode.png" alt="logo">
+
+    </a>
+    <label class="md-header__button md-icon" for="__drawer">
+      
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M3 6h18v2H3zm0 5h18v2H3zm0 5h18v2H3z"/></svg>
+    </label>
+    <div class="md-header__title" data-md-component="header-title">
+      <div class="md-header__ellipsis">
+        <div class="md-header__topic">
+          <span class="md-ellipsis">
+            NNS Session Docs
+          </span>
+        </div>
+        <div class="md-header__topic" data-md-component="header-topic">
+          <span class="md-ellipsis">
+            
+              User Personas
+            
+          </span>
+        </div>
+      </div>
+    </div>
+    
+      
+        <form class="md-header__option" data-md-component="palette">
+  
+    
+    
+    
+    <input class="md-option" data-md-color-media="" data-md-color-scheme="slate" data-md-color-primary="indigo" data-md-color-accent="deep-purple"  aria-label="Dark mode"  type="radio" name="__palette" id="__palette_0">
+    
+      <label class="md-header__button md-icon" title="Dark mode" for="__palette_1" hidden>
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16"><path d="M8 12a4 4 0 1 1 0-8 4 4 0 0 1 0 8m0-1.5a2.5 2.5 0 1 0 0-5 2.5 2.5 0 0 0 0 5m5.657-8.157a.75.75 0 0 1 0 1.061l-1.061 1.06a.749.749 0 0 1-1.275-.326.75.75 0 0 1 .215-.734l1.06-1.06a.75.75 0 0 1 1.06 0Zm-9.193 9.193a.75.75 0 0 1 0 1.06l-1.06 1.061a.75.75 0 1 1-1.061-1.06l1.06-1.061a.75.75 0 0 1 1.061 0M8 0a.75.75 0 0 1 .75.75v1.5a.75.75 0 0 1-1.5 0V.75A.75.75 0 0 1 8 0M3 8a.75.75 0 0 1-.75.75H.75a.75.75 0 0 1 0-1.5h1.5A.75.75 0 0 1 3 8m13 0a.75.75 0 0 1-.75.75h-1.5a.75.75 0 0 1 0-1.5h1.5A.75.75 0 0 1 16 8m-8 5a.75.75 0 0 1 .75.75v1.5a.75.75 0 0 1-1.5 0v-1.5A.75.75 0 0 1 8 13m3.536-1.464a.75.75 0 0 1 1.06 0l1.061 1.06a.75.75 0 0 1-1.06 1.061l-1.061-1.06a.75.75 0 0 1 0-1.061M2.343 2.343a.75.75 0 0 1 1.061 0l1.06 1.061a.75.75 0 0 1-.018 1.042.75.75 0 0 1-1.042.018l-1.06-1.06a.75.75 0 0 1 0-1.06Z"/></svg>
+      </label>
+    
+  
+    
+    
+    
+    <input class="md-option" data-md-color-media="" data-md-color-scheme="default" data-md-color-primary="blue" data-md-color-accent="deep-orange"  aria-label="Light mode"  type="radio" name="__palette" id="__palette_1">
+    
+      <label class="md-header__button md-icon" title="Light mode" for="__palette_0" hidden>
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16"><path d="M9.598 1.591a.75.75 0 0 1 .785-.175 7.001 7.001 0 1 1-8.967 8.967.75.75 0 0 1 .961-.96 5.5 5.5 0 0 0 7.046-7.046.75.75 0 0 1 .175-.786m1.616 1.945a7 7 0 0 1-7.678 7.678 5.499 5.499 0 1 0 7.678-7.678"/></svg>
+      </label>
+    
+  
+</form>
+      
+    
+    
+      <script>var palette=__md_get("__palette");if(palette&&palette.color){if("(prefers-color-scheme)"===palette.color.media){var media=matchMedia("(prefers-color-scheme: light)"),input=document.querySelector(media.matches?"[data-md-color-media='(prefers-color-scheme: light)']":"[data-md-color-media='(prefers-color-scheme: dark)']");palette.color.media=input.getAttribute("data-md-color-media"),palette.color.scheme=input.getAttribute("data-md-color-scheme"),palette.color.primary=input.getAttribute("data-md-color-primary"),palette.color.accent=input.getAttribute("data-md-color-accent")}for(var[key,value]of Object.entries(palette.color))document.body.setAttribute("data-md-color-"+key,value)}</script>
+    
+    
+    
+      
+      
+        <label class="md-header__button md-icon" for="__search">
+          
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.52 6.52 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5"/></svg>
+        </label>
+        <div class="md-search" data-md-component="search" role="dialog">
+  <label class="md-search__overlay" for="__search"></label>
+  <div class="md-search__inner" role="search">
+    <form class="md-search__form" name="search">
+      <input type="text" class="md-search__input" name="query" aria-label="Search" placeholder="Search" autocapitalize="off" autocorrect="off" autocomplete="off" spellcheck="false" data-md-component="search-query" required>
+      <label class="md-search__icon md-icon" for="__search">
+        
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.52 6.52 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5"/></svg>
+        
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11z"/></svg>
+      </label>
+      <nav class="md-search__options" aria-label="Search">
+        
+        <button type="reset" class="md-search__icon md-icon" title="Clear" aria-label="Clear" tabindex="-1">
+          
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M19 6.41 17.59 5 12 10.59 6.41 5 5 6.41 10.59 12 5 17.59 6.41 19 12 13.41 17.59 19 19 17.59 13.41 12z"/></svg>
+        </button>
+      </nav>
+      
+    </form>
+    <div class="md-search__output">
+      <div class="md-search__scrollwrap" tabindex="0" data-md-scrollfix>
+        <div class="md-search-result" data-md-component="search-result">
+          <div class="md-search-result__meta">
+            Initializing search
+          </div>
+          <ol class="md-search-result__list" role="presentation"></ol>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+      
+    
+    
+  </nav>
+  
+</header>
+    
+    <div class="md-container" data-md-component="container">
+      
+      
+        
+          
+        
+      
+      <main class="md-main" data-md-component="main">
+        <div class="md-main__inner md-grid">
+          
+            
+              
+              <div class="md-sidebar md-sidebar--primary" data-md-component="sidebar" data-md-type="navigation" >
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+
+
+
+<nav class="md-nav md-nav--primary" aria-label="Navigation" data-md-level="0">
+  <label class="md-nav__title" for="__drawer">
+    <a href="../.." title="NNS Session Docs" class="md-nav__button md-logo" aria-label="NNS Session Docs" data-md-component="logo">
+      
+  <img src="../../assets/NNSsessionLogoDarkMode.png" alt="logo">
+
+    </a>
+    NNS Session Docs
+  </label>
+  
+  <ul class="md-nav__list" data-md-scrollfix>
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../.." class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Home
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    
+    
+    
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_2" >
+        
+          
+          <label class="md-nav__link" for="__nav_2" id="__nav_2_label" tabindex="0">
+            
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Project Overview
+  
+
+    
+  </span>
+  
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_2_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_2">
+            <span class="md-nav__icon md-icon"></span>
+            
+  
+    Project Overview
+  
+
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../1_Project_Overview/1_1_Project_Proposal/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Project Proposal
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../1_Project_Overview/1_2_Background_%26_Context/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Background & Context
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+    
+  
+  
+  
+    
+    
+    
+    
+    
+    <li class="md-nav__item md-nav__item--active md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_3" checked>
+        
+          
+          <label class="md-nav__link" for="__nav_3" id="__nav_3_label" tabindex="0">
+            
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Product Strategy & Discovery
+  
+
+    
+  </span>
+  
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_3_label" aria-expanded="true">
+          <label class="md-nav__title" for="__nav_3">
+            <span class="md-nav__icon md-icon"></span>
+            
+  
+    Product Strategy & Discovery
+  
+
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../2_1_Market_Analysis/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Market Analysis
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+    
+  
+  
+  
+    <li class="md-nav__item md-nav__item--active">
+      
+      <input class="md-nav__toggle md-toggle" type="checkbox" id="__toc">
+      
+      
+        
+      
+      
+        <label class="md-nav__link md-nav__link--active" for="__toc">
+          
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    User Personas
+  
+
+    
+  </span>
+  
+  
+
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <a href="./" class="md-nav__link md-nav__link--active">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    User Personas
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+      
+        
+
+<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
+  
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#quick-navigation" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Quick Navigation
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Quick Navigation">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#players" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Players
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#organizers" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Organizers
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#coaches" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Coaches
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+      
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    
+    
+    
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_4" >
+        
+          
+          <label class="md-nav__link" for="__nav_4" id="__nav_4_label" tabindex="0">
+            
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    System Architecture
+  
+
+    
+  </span>
+  
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_4_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_4">
+            <span class="md-nav__icon md-icon"></span>
+            
+  
+    System Architecture
+  
+
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../3_System_Architecture/3_1_High-Level_Design/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    High-Level Design
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../3_System_Architecture/3_2_Codebase_Structure_%26_Optimization/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Codebase Structure & Optimization
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../3_System_Architecture/3_3_Database_Schema/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Database Schema
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../3_System_Architecture/3_4_Native_Strategy/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Native Strategy
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    
+    
+    
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_5" >
+        
+          
+          <label class="md-nav__link" for="__nav_5" id="__nav_5_label" tabindex="0">
+            
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Feature Deep Dives
+  
+
+    
+  </span>
+  
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_5_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_5">
+            <span class="md-nav__icon md-icon"></span>
+            
+  
+    Feature Deep Dives
+  
+
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../4_Feature_Deep_Dives/4_1_Skill_Rating_System/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Skill Rating System
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../4_Feature_Deep_Dives/4_2_Tournament_Wizard/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Tournament Wizard
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../4_Feature_Deep_Dives/4_3_Follower_%26_Social_System/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Follower & Social System
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../4_Feature_Deep_Dives/4_4_Clinics/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Clinics
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../4_Feature_Deep_Dives/4_5_Tournaments/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Tournaments
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../4_Feature_Deep_Dives/4_6_Sessions/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Sessions
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../4_Feature_Deep_Dives/4_7_Messaging_System/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Messaging System
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    
+    
+    
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_6" >
+        
+          
+          <label class="md-nav__link" for="__nav_6" id="__nav_6_label" tabindex="0">
+            
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Dev Log
+  
+
+    
+  </span>
+  
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_6_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_6">
+            <span class="md-nav__icon md-icon"></span>
+            
+  
+    Dev Log
+  
+
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../5_Change_Logs/5_1_Jan_2026/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Jan 2026 Summary
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../5_Change_Logs/2025-12-02-tournament-ui-and-calendar-fixes/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Tournament UI & Calendar Fixes
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../5_Change_Logs/2025-12-04-playoff-scheduling-ui-integration/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Playoff Scheduling UI Integration
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../5_Change_Logs/2025-12-08-refining-session-details-ui/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Refining Session Details UI
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../5_Change_Logs/2025-12-17-refactoring-context-providers/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Refactoring Context Providers
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../5_Change_Logs/2025-12-21-debugging-auth-and-sw/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Debugging Auth & SW
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../5_Change_Logs/2025-12-24-debugging-deployment-404-errors/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Debugging Deployment 404 Errors
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../5_Change_Logs/2026-01-02-creating-llm-context-document/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Creating LLM Context Document
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../5_Change_Logs/2026-01-04-implementing-rules-engine/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Implementing Rules Engine
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../5_Change_Logs/2026-01-04-refining-configurator-ui/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Refining Configurator UI
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../5_Change_Logs/2026-01-12-fixing-authentication-docs/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Fixing Authentication Docs
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../5_Change_Logs/2026-01-17-firestore-read-optimization/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Firestore Read Optimization
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../5_Change_Logs/2026-01-26-integrating-new-assets-urls/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Integrating New Assets URLs
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../5_Change_Logs/2026-01-28-refining-background-context/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Refining Background Context
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../5_Change_Logs/2026-01-29-security-rules-audit/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Security Rules Audit
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../6_AI_Strategy/6_1_AI_Strategy/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    AI Strategy
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+    
+  </ul>
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+            
+              
+              <div class="md-sidebar md-sidebar--secondary" data-md-component="sidebar" data-md-type="toc" >
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+
+<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
+  
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#quick-navigation" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Quick Navigation
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Quick Navigation">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#players" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Players
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#organizers" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Organizers
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#coaches" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Coaches
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+          
+          
+            <div class="md-content" data-md-component="content">
+              
+              <article class="md-content__inner md-typeset">
+                
+                  
+
+
+
+<h1 id="user-personas">User Personas</h1>
+<h2 id="quick-navigation">Quick Navigation</h2>
+<h3 id="players">Players</h3>
+<ul>
+<li><a href="#the-casual-social-player">The Casual Social Player</a> — Sophie Smith</li>
+<li><a href="#the-semi-pro-athlete">The Semi-Pro Athlete</a> — Tyler Kowalski</li>
+<li><a href="#the-professional-athlete">The Professional Athlete</a> — Melissa Humana-Peredes</li>
+</ul>
+<h3 id="organizers">Organizers</h3>
+<ul>
+<li><a href="#casual-organizer">Casual Organizer</a> — Chris Lee</li>
+<li><a href="#the-semi-pro-organizer">The Semi-Pro Organizer</a> — Marcus Zhao</li>
+<li><a href="#the-world-tour-director-pro-organizer">The World Tour Director (Pro Organizer)</a> — Dan Reynolds</li>
+</ul>
+<h3 id="coaches">Coaches</h3>
+<ul>
+<li><a href="#the-independent-coach">The Independent Coach</a> — Kelly Johnson</li>
+</ul>
+<hr />
+<h1 id="the-casual-social-player">The Casual Social Player</h1>
+<h2 id="profile">Profile</h2>
+<p><img alt="alt text" src="../rhiannonSmile.jpg" /></p>
+<ul>
+<li><strong>Name:</strong> Sophie Smith</li>
+<li><strong>Age:</strong> 26</li>
+<li><strong>Occupation:</strong> Marketing Coordinator</li>
+<li><strong>Location:</strong> Kitsilano, Vancouver</li>
+<li><strong>Tech Proficiency:</strong> High (Daily user of Instagram, TikTok, Hinge)</li>
+</ul>
+<h2 id="empathy-map">Empathy Map</h2>
+<h3 id="characteristics">Characteristics</h3>
+<p>Sophie plays volleyball for the "vibes" first and the sport second. She loves the beach culture—music, sunsets, and post-game drinks. She is decent enough to keep a rally going (B-level), but she's terrified of "hardcore" intense games where people yell about rules. She wants to be included but often feels awkward asking to join strangers.</p>
+<h3 id="behaviors">Behaviors</h3>
+<ul>
+<li><strong>FOMO-driven:</strong> Checks Instagram stories constantly to see where her friends are.</li>
+<li><strong>Visual:</strong> Likes seeing photos of who played and who won, even if she wasn't there.</li>
+<li><strong>Notification-Sensitive:</strong> Will turn off notifications if an app spams her, but wants <em>instant</em> alerts if invited to a game.</li>
+<li><strong>Non-Confrontational:</strong> Hates handling cash or asking friends to Venmo her for court fees.</li>
+</ul>
+<h2 id="goals">Goals</h2>
+<ol>
+<li><strong>Social Connection:</strong> Wants to meet new people and hang out with her current friends in a fun setting.</li>
+<li><strong>Low Friction Play:</strong> Wants to find a game on a Tuesday evening without sending 50 texts.</li>
+<li><strong>Validation:</strong> Enjoys seeing her "stats" go up (games played) even if she doesn't care about a Glicko rating. Wants to be tagged in photos.</li>
+</ol>
+<h2 id="pain-points">Pain Points</h2>
+<ul>
+<li><strong>The "Group Chat" Mess:</strong> Trying to coordinate 4 people via iMessage is a nightmare of "I can't make it" and silence.</li>
+<li><strong>Skill Gap Anxiety:</strong> Showing up to a "pickup game" and realizing everyone is AA level and she's out of her depth.</li>
+<li><strong>Exclusion:</strong> Seeing a group playing at the beach and wishing she knew them well enough to jump in.</li>
+<li><strong>Handling Money:</strong> Hate owing people $5 for court rentals or forgetting to bring cash.</li>
+</ul>
+<h2 id="why-nns-session">Why NNS Session?</h2>
+<ul>
+<li><strong>The "Feed":</strong> Sees her friends played a game yesterday. FOMO drives her to open the app.</li>
+<li><strong>"Sessions" Feature:</strong> Can see exactly who is attending a pickup game and their "vibe" (rating) before she commits, reducing anxiety.</li>
+<li><strong>Follow System:</strong> Follows the "cool" organizers so she never misses a fun sunset session invite.</li>
+</ul>
+<h1 id="the-semi-pro-athlete">The Semi-Pro Athlete</h1>
+<h2 id="profile_1">Profile</h2>
+<ul>
+<li><strong>Name:</strong> Tyler Kowalski</li>
+<li><strong>Age:</strong> 23</li>
+<li><strong>Occupation:</strong> Personal Trainer / Student</li>
+<li><strong>Location:</strong> Santa Monica, CA (or serious Vancouver scene)</li>
+<li><strong>Tech Proficiency:</strong> Moderate. Uses apps for utility (workouts, nutrition, scheduling).</li>
+</ul>
+<h2 id="empathy-map_1">Empathy Map</h2>
+<h3 id="characteristics_1">Characteristics</h3>
+<p>Tyler is hungry. He believes he has what it takes to go pro (AVP/FIVB) but is currently stuck in the "King of the Beach" grind. He treats every match like a job interview. He is obsessed with data—win rates, point differentials, and who beat whom. He gets frustrated when "casuals" ruin the quality of a practice session.</p>
+<h3 id="behaviors_1">Behaviors</h3>
+<ul>
+<li><strong>Competitive:</strong> Will argue a call if it matters for the score.</li>
+<li><strong>Networker:</strong> Always looking for a better partner (the "ladder" mentality).</li>
+<li><strong>Analytical:</strong> Checks his rating daily. Wants to know <em>why</em> it went down.</li>
+<li><strong>Hustler:</strong> Plays in 3 different tournaments a weekend if he can afford it.</li>
+</ul>
+<h2 id="goals_1">Goals</h2>
+<ol>
+<li><strong>Visibility:</strong> Wants higher-rated players and organizers to know his name.</li>
+<li><strong>Skill Quantification:</strong> Needs a "Verified Rating" to prove to a potential A-level partner that he is worthy.</li>
+<li><strong>Progression:</strong> Wants a clear path: "If I win this tournament, I qualify for the Pro division."</li>
+</ol>
+<h2 id="pain-points_1">Pain Points</h2>
+<ul>
+<li><strong>Rating Stagnation:</strong> Using systems that don't differentiate between beating a novice 21-0 and beating a pro 21-19.</li>
+<li><strong>Partner Flakiness:</strong> Having a partner drop out last minute without a replacement of equal skill.</li>
+<li>
+<p><strong>Platform Fragmentation:</strong> Having stats scattered across spreadsheet A, website B, and a notebook.</p>
+</li>
+<li>
+<p><strong>Unverified Coaching:</strong> Paying for a clinic and realizing the coach knows less than he does.</p>
+</li>
+</ul>
+<h2 id="why-nns-session_1">Why NNS Session?</h2>
+<ul>
+<li><strong>Elo/Glicko System:</strong> Loves that NNS tracks <em>point differential</em> and <em>strength of schedule</em>. His rating feels earned.</li>
+<li><strong>Partner Finder:</strong> Uses the app to scout partners by filtering for "Rating &gt; 1800".</li>
+<li><strong>Verified Results:</strong> Likes that match results are "official" and build his permanent record (resume).</li>
+</ul>
+<h1 id="the-professional-athlete">The Professional Athlete</h1>
+<h2 id="profile_2">Profile</h2>
+<p><img alt="alt text" src="../image.png#w300" /></p>
+<ul>
+<li><strong>Name:</strong> Melissa Humana-Peredes</li>
+<li><strong>Age:</strong> 31</li>
+<li><strong>Occupation:</strong> Professional Athlete</li>
+<li><strong>Location:</strong> International Circuit</li>
+<li><strong>Tech Proficiency:</strong> Functional. Uses social media for brand building, not just fun.</li>
+</ul>
+<h2 id="empathy-map_2">Empathy Map</h2>
+<h3 id="characteristics_2">Characteristics</h3>
+<p>Melissa is the pinnacle. She doesn't need to "find" games; games happen around her. Her time is her most valuable asset. She cares about <em>efficiency</em> and <em>brand</em>. She is often mobbed by fans or lower-level players wanting advice. She needs boundaries but also wants to give back (and monetize her expertise).</p>
+<h3 id="behaviors_2">Behaviors</h3>
+<ul>
+<li><strong>Brand Conscious:</strong> Everything she posts is curated.</li>
+<li><strong>Mentor Figure:</strong> Occasionally runs high-level clinics to supplement income.</li>
+<li><strong>Exclusive:</strong> Only plays with other pros to maintain top form.</li>
+</ul>
+<h2 id="goals_2">Goals</h2>
+<ol>
+<li><strong>Monetization:</strong> Easy way to fill spots in her exclusive "Pro Clinics" without handling admin work.</li>
+<li><strong>Fan Engagement:</strong> Wants to interact with the local community without giving out her phone number.</li>
+<li><strong>Legacy:</strong> Wants her tournament wins recorded in history.</li>
+</ol>
+<h2 id="pain-points_2">Pain Points</h2>
+<ul>
+<li><strong>Admin Overload:</strong> Managing 20 DMs asking "Can you coach me?"</li>
+<li><strong>Privacy:</strong> Doesn't want randos knowing exactly where she trains every day (needs "Private Sessions").</li>
+<li><strong>Data Accuracy:</strong> Hates when tournament organizers spell her name wrong or lose the bracket data.</li>
+</ul>
+<h2 id="why-nns-session_2">Why NNS Session?</h2>
+<ul>
+<li><strong>Pro Organizer Tools:</strong> She can host a "Pro Clinic" on NNS, set a price, and let the app handle signups/payments.</li>
+<li><strong>Verification Authority:</strong> She can be a "Super User" who <em>grants</em> verified ratings to others, cementing her status as an expert.</li>
+<li><strong>Privacy Controls:</strong> Can create "Invite Only" sessions for her pro training group that don't appear on the public feed.</li>
+</ul>
+<h1 id="casual-organizer">Casual Organizer</h1>
+<h2 id="profile_3">Profile</h2>
+<p><img alt="alt text" src="../../assets/hamishBlockSignals.jpg" /></p>
+<ul>
+<li><strong>Name:</strong> Chris Lee</li>
+<li><strong>Age:</strong> 29</li>
+<li><strong>Occupation:</strong> Software Engineer</li>
+<li><strong>Location:</strong> Kitsilano, Vancouver</li>
+<li><strong>Tech Proficiency:</strong> High. Expects software to be intuitive and bug-free.</li>
+</ul>
+<h2 id="empathy-map_3">Empathy Map</h2>
+<h3 id="characteristics_3">Characteristics</h3>
+<p>Chris loves volleyball and wants to build a community. He organizes the "Sunday Funday" tournament series. It's a passion project, but he hates losing money on it. He does this on evenings and weekends, so he has zero tolerance for manual data entry or time-wasting tasks.</p>
+<h3 id="behaviors_3">Behaviors</h3>
+<ul>
+<li><strong>Spreadsheet Warrior:</strong> Currently runs everything on Google Sheets because other apps are too expensive or clunky.</li>
+<li><strong>Community Leader:</strong> Everyone knows him; he's the "guy with the clipboard."</li>
+<li><strong>Stressed:</strong> Worries about rain, no-shows, and chargebacks.</li>
+</ul>
+<h2 id="goals_3">Goals</h2>
+<ol>
+<li><strong>Break Even / Small Profit:</strong> Wants to cover permit costs and buy a few beers without going into debt.</li>
+<li><strong>Efficiency:</strong> Wants a "one-click" bracket generator.</li>
+<li><strong>Good Vibes:</strong> Wants players to be happy and know where to go without asking him 100 times.</li>
+</ol>
+<h2 id="pain-points_3">Pain Points</h2>
+<ul>
+<li><strong>Chasing Payments:</strong> "I'll e-transfer you later" is his trigger phrase.</li>
+<li><strong>No-Shows:</strong> People signing up and not coming ruin the bracket.</li>
+<li><strong>Communication:</strong> sending emails, text blasts, and FB posts to update a start time.</li>
+<li><strong>Seeding Nightmares:</strong> Spending Friday night manually ranking 32 teams based on hearsay.</li>
+</ul>
+<h2 id="why-nns-session_3">Why NNS Session?</h2>
+<ul>
+<li><strong>Stripe Integration:</strong> Players <em>must</em> pay to register. No cash, no IOUs.</li>
+<li><strong>Automated Seeding:</strong> NNS uses the Glicko ratings to seed the bracket automatically. Chris gets his Friday night back.</li>
+<li><strong>Push Notifications:</strong> One button to notify all 64 players "Rain delay - 30 mins."</li>
+</ul>
+<h1 id="the-semi-pro-organizer">The Semi-Pro Organizer</h1>
+<h2 id="profile_4">Profile</h2>
+<ul>
+<li><strong>Name:</strong> Marcus Zhao</li>
+<li><strong>Age:</strong> 34</li>
+<li><strong>Occupation:</strong> Entrepreneur / League Owner</li>
+<li><strong>Location:</strong> Regional Hub (e.g., Seattle, Denver)</li>
+<li><strong>Tech Proficiency:</strong> High. Uses CRMs, Mailchimp, and spreadsheets aggressively.</li>
+</ul>
+<h2 id="empathy-map_4">Empathy Map</h2>
+<h3 id="characteristics_4">Characteristics</h3>
+<p>Marcus isn't just running a tournament; he's building a <em>brand</em>. He wants his local league to be the "premier" place to play in the city. He is ambitious and competitive with other local leagues. He cares deeply about "production value"—music, tents, prizes, and social media presence. He is transitioning from "side gig" to "full-time business."</p>
+<h3 id="behaviors_4">Behaviors</h3>
+<ul>
+<li><strong>Community Builder:</strong> Actively recruits sponsors (local breweries, physio clinics).</li>
+<li><strong>Data Driven:</strong> Wants to know retention rates. "Why didn't Sarah sign up this month?"</li>
+<li><strong>Content Creator:</strong> Hired a photographer for the finals. Posts highlight reels.</li>
+</ul>
+<h2 id="goals_4">Goals</h2>
+<ol>
+<li><strong>Growth:</strong> Scale from 20 teams to 50 teams per weekend.</li>
+<li><strong>Monetization:</strong> Move beyond just entry fees—wants to sell merch, sponsorships, and memberships.</li>
+<li><strong>Legitimacy:</strong> Wants his events to feel professional, even if the players are local amateurs.</li>
+</ol>
+<h2 id="pain-points_4">Pain Points</h2>
+<ul>
+<li><strong>Fragmentation:</strong> Managing registrations on one site, payments on Venmo, and brackets on paper is unscalable.</li>
+<li><strong>Checkout Friction:</strong> Every step a player has to take to register is a chance for them to bail. Needs a sleek checkout.</li>
+<li><strong>Sponsor Reporting:</strong> Cannot prove to the local brewery that their $500 sponsorship got any eyeballs.</li>
+</ul>
+<h2 id="why-nns-session_4">Why NNS Session?</h2>
+<ul>
+<li><strong>Organization Pages:</strong> Loves that NNS lets him have a "Company Page" where players can follow his brand specifically.</li>
+<li><strong>The "Feed" as Marketing:</strong> When a player gets a verified result from his tournament, it shows up in <em>their</em> feed, advertising Marcus's league to all their friends. Free viral marketing.</li>
+<li><strong>Sponsor Integration:</strong> Can put sponsor logos on the digital leaderboard that every player checks 50 times a day.</li>
+</ul>
+<h1 id="the-world-tour-director-pro-organizer">The World Tour Director (Pro Organizer)</h1>
+<h2 id="profile_5">Profile</h2>
+<ul>
+<li><strong>Name:</strong> Dan Reynolds</li>
+<li><strong>Age:</strong> 45</li>
+<li><strong>Occupation:</strong> International Event Director (FIVB / AVP)</li>
+<li><strong>Location:</strong> Global (Gstaad, Rio, Doha)</li>
+<li><strong>Tech Proficiency:</strong> Low to Moderate. Relies on staff. "It just needs to work on TV."</li>
+</ul>
+<h2 id="empathy-map_5">Empathy Map</h2>
+<h3 id="characteristics_5">Characteristics</h3>
+<p>Dan operates at the highest level. We are talking stadiums, TV broadcast rights, and Olympic qualification points. Scale is massive. His "customers" are not just players, but the International Federation, TV networks, and massive corporate sponsors. He cannot afford a single glitch. Authenticity and formality are paramount.</p>
+<h3 id="behaviors_5">Behaviors</h3>
+<ul>
+<li><strong>Risk Averse:</strong> An app crash isn't an inconvenience; it's a breach of contract with ESPN/NBC.</li>
+<li><strong>Delegator:</strong> Manages a staff of 50+. Needs tools that restrict what the "intern" can delete.</li>
+<li><strong>Formalist:</strong> Needs adherence to strict international rulebooks (FIVB Technical Regulations).</li>
+</ul>
+<h2 id="goals_5">Goals</h2>
+<ol>
+<li><strong>Broadcast Reliability:</strong> The live score on the app <em>must</em> match the TV broadcast instantly.</li>
+<li><strong>Data Sovereignty:</strong> Needs raw data export for official federation records (Olympic points).</li>
+<li><strong>Tiered Access:</strong> Needs specific views for "Referees," "Press," "VIPs," and "Medical Staff."</li>
+</ol>
+<h2 id="pain-points_5">Pain Points</h2>
+<ul>
+<li><strong>Connectivity at Scale:</strong> 5,000 fans in a stadium crush the cell towers. How do we keep the scores updated?</li>
+<li><strong>Complex Formats:</strong> Pool play into Modified Double Elimination with Country Quota limits. Most apps can't handle the logic.</li>
+<li><strong>Liability:</strong> Needs ironclad waivers and medical tracking integration.</li>
+</ul>
+<h2 id="why-nns-session_5">Why NNS Session?</h2>
+<ul>
+<li><strong>Offline-First Architecture:</strong> The dedicated "Ref Pad" mode works on a tablet with zero internet, syncing only when connection is restored. Critical for stadium reliability.</li>
+<li><strong>Advanced Rules Engine:</strong> Configurable to handle complex FIVB "Lucky Loser" brackets and Country Quota restrictions.</li>
+<li><strong>API Access:</strong> Can pipe real-time scoring data directly to the TV broadcast truck overlay system.</li>
+</ul>
+<h1 id="the-independent-coach">The Independent Coach</h1>
+<h2 id="profile_6">Profile</h2>
+<ul>
+<li><strong>Name:</strong> Kelly Johnson</li>
+<li><strong>Age:</strong> 28</li>
+<li><strong>Occupation:</strong> Volleyball Coach / Part-time Server</li>
+<li><strong>Location:</strong> Urban Beach Hub (e.g., Toronto, Chicago)</li>
+<li><strong>Tech Proficiency:</strong> Moderate. Living on phone managing clients.</li>
+</ul>
+<h2 id="empathy-map_6">Empathy Map</h2>
+<h3 id="characteristics_6">Characteristics</h3>
+<p>Kelly is a former university player who loves teaching. She has a high volleyball IQ but struggles with the "business" side of coaching. She relies on word-of-mouth. She wants to be taken seriously as a professional service provider, not just "someone with a ball bag."</p>
+<h3 id="behaviors_6">Behaviors</h3>
+<ul>
+<li><strong>Patient Teacher:</strong> Loves seeing players have "aha" moments.</li>
+<li><strong>Hustler:</strong> Running 3 clinics a day on weekends to make rent.</li>
+<li><strong>Reputation Guardian:</strong> Her name is her brand. Bad reviews (or no reviews) kill her business.</li>
+</ul>
+<h2 id="goals_6">Goals</h2>
+<ol>
+<li><strong>Fill Capacity:</strong> An empty spot in a clinic is lost revenue that can never be recovered.</li>
+<li><strong>Credibility:</strong> Wants to prove her students get better (data-backed coaching).</li>
+<li><strong>Streamlined Admin:</strong> Hates text threads: "Are you coming at 4 or 5?", "Can I pay cash?".</li>
+</ol>
+<h2 id="pain-points_6">Pain Points</h2>
+<ul>
+<li><strong>Discovery:</strong> How do new players find her? Instagram algorithm is fickle.</li>
+<li><strong>Skill Mismatches:</strong> Students signing up for "Advanced" classes when they are Beginners, ruining the flow.</li>
+<li><strong>Feedback Loop:</strong> Hard to give written feedback to 12 students after a session.</li>
+</ul>
+<h2 id="why-nns-session_6">Why NNS Session?</h2>
+<ul>
+<li><strong>The "Rating Loop":</strong> She can exclusively market "Rated Clinics"—if you take her class, you get an official NNS rating. This is a huge hook for players.</li>
+<li><strong>Rating Gating:</strong> She can set her "Advanced Spiking" clinic to <em>require</em> an NNS rating of 2500+, ensuring high-quality reps.</li>
+<li><strong>Business in a Box:</strong> Payments, liability waivers, and roster management are all handled in the specific "Clinic" session type.</li>
+</ul>
+
+
+
+
+
+
+
+
+
+
+
+
+                
+              </article>
+            </div>
+          
+          
+<script>var target=document.getElementById(location.hash.slice(1));target&&target.name&&(target.checked=target.name.startsWith("__tabbed_"))</script>
+        </div>
+        
+      </main>
+      
+        <footer class="md-footer">
+  
+  <div class="md-footer-meta md-typeset">
+    <div class="md-footer-meta__inner md-grid">
+      <div class="md-copyright">
+  
+  
+    Made with
+    <a href="https://squidfunk.github.io/mkdocs-material/" target="_blank" rel="noopener">
+      Material for MkDocs
+    </a>
+  
+</div>
+      
+    </div>
+  </div>
+</footer>
+      
+    </div>
+    <div class="md-dialog" data-md-component="dialog">
+      <div class="md-dialog__inner md-typeset"></div>
+    </div>
+    
+    
+    
+      
+      
+      <script id="__config" type="application/json">{"annotate": null, "base": "../..", "features": [], "search": "../../assets/javascripts/workers/search.2c215733.min.js", "tags": null, "translations": {"clipboard.copied": "Copied to clipboard", "clipboard.copy": "Copy to clipboard", "search.result.more.one": "1 more on this page", "search.result.more.other": "# more on this page", "search.result.none": "No matching documents", "search.result.one": "1 matching document", "search.result.other": "# matching documents", "search.result.placeholder": "Type to start searching", "search.result.term.missing": "Missing", "select.version": "Select version"}, "version": null}</script>
+    
+    
+      <script src="../../assets/javascripts/bundle.79ae519e.min.js"></script>
+      
+    
+  </body>
+</html>

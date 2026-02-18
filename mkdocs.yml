@@ -44,7 +44,7 @@ nav:
       - Messaging System: 4_Feature_Deep_Dives/4_7_Messaging_System.md
   - Dev Log:
       - Jan 2026: 5_Dev_Log/5_1_Jan_2026.md
-  - AI Strategy: 6_AI_Strategy/6_1_AI_Strategy
+  - AI Strategy: 6_AI_Strategy/6_1_AI_Strategy.md
 
 markdown_extensions:
   - attr_list

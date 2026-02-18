@@ -43,7 +43,21 @@ nav:
       - Sessions: 4_Feature_Deep_Dives/4_6_Sessions.md
       - Messaging System: 4_Feature_Deep_Dives/4_7_Messaging_System.md
   - Dev Log:
-      - Jan 2026: 5_Change_Logs/5_1_Jan_2026.md
+      - Jan 2026 Summary: 5_Change_Logs/5_1_Jan_2026.md
+      - Tournament UI & Calendar Fixes: 5_Change_Logs/2025-12-02-tournament-ui-and-calendar-fixes.md
+      - Playoff Scheduling UI Integration: 5_Change_Logs/2025-12-04-playoff-scheduling-ui-integration.md
+      - Refining Session Details UI: 5_Change_Logs/2025-12-08-refining-session-details-ui.md
+      - Refactoring Context Providers: 5_Change_Logs/2025-12-17-refactoring-context-providers.md
+      - Debugging Auth & SW: 5_Change_Logs/2025-12-21-debugging-auth-and-sw.md
+      - Debugging Deployment 404 Errors: 5_Change_Logs/2025-12-24-debugging-deployment-404-errors.md
+      - Creating LLM Context Document: 5_Change_Logs/2026-01-02-creating-llm-context-document.md
+      - Implementing Rules Engine: 5_Change_Logs/2026-01-04-implementing-rules-engine.md
+      - Refining Configurator UI: 5_Change_Logs/2026-01-04-refining-configurator-ui.md
+      - Fixing Authentication Docs: 5_Change_Logs/2026-01-12-fixing-authentication-docs.md
+      - Firestore Read Optimization: 5_Change_Logs/2026-01-17-firestore-read-optimization.md
+      - Integrating New Assets URLs: 5_Change_Logs/2026-01-26-integrating-new-assets-urls.md
+      - Refining Background Context: 5_Change_Logs/2026-01-28-refining-background-context.md
+      - Security Rules Audit: 5_Change_Logs/2026-01-29-security-rules-audit.md
   - AI Strategy: 6_AI_Strategy/6_1_AI_Strategy.md
 
 markdown_extensions:

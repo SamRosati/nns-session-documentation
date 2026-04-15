@@ -2,7 +2,7 @@
 
 ## Origin Story
 
-![alt text](image.png)
+alt text
 
 In 2022, I moved to Vancouver and immediately fell in love with the vibrant beach volleyball community. As I spent more time on the sand, I became deeply involved, not just as a player but as a community builder. I started a brand and began hosting my own tournament series.
 
@@ -10,7 +10,7 @@ Through this experience, I saw the community grow firsthand. Hosting tournaments
 
 ## The Catalyst
 
-![alt text](image-1.png)
+alt text
 
 I quickly realized that the operational side of beach volleyball was stuck in the past.
 
@@ -55,3 +55,13 @@ Once the core tournament automation is established, the platform will expand to:
 ## Why Build This?
 
 I chose to pursue this project because it perfectly intersects my passion for beach volleyball with my desire to solve real-world problems through software. I have felt the pain of manual tournament management firsthand, and I know that a well-designed, community-focused platform can revolutionize how the sport is organized and experienced in Vancouver and beyond.
+
+## Recent Product Iteration Approach
+
+As development progressed, I used lightweight user testing to validate whether the product direction was actually helping users complete real tasks.
+
+- **Wireframe-first testing**: I ran user testing sessions with basic wireframe mockups of key user journeys to identify friction before over-investing in implementation.
+- **Flow simplification**: Based on feedback, I updated the app to make critical tasks more straightforward, with clearer steps and less cognitive overhead.
+- **Scope discipline**: Pilot testing showed that the original Tournament Wizard scope was too complex for an initial rollout, so I intentionally narrowed scope to a smaller, more usable first version.
+
+This approach helped balance user experience and delivery speed by focusing first on clarity and progress over feature breadth.

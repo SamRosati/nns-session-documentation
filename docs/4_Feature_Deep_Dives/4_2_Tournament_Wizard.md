@@ -70,3 +70,11 @@ Upon completion:
 - **Progress Indicator**: A stepper component visually indicates the current stage.
 - **Smart Defaults**: Fields are pre-populated with sensible defaults (e.g., "Standard 21-point games") to speed up creation.
 - **Mobile Responsiveness**: The wizard is fully responsive, allowing organizers to create events from a tablet or phone at the beach.
+
+## Current Scope Strategy
+
+Pilot testing revealed that the original, broader Tournament Wizard experience created too much complexity during setup for an initial release.
+
+- **Reduced initial scope**: The first version now prioritizes a leaner set of core setup tasks over full configurability.
+- **Simpler completion path**: The step sequence was refined to make task completion more direct, reducing unnecessary decisions and confusion.
+- **Iteration over completeness**: Advanced options remain part of the long-term vision, but are deferred so the product can ship a clearer and more reliable workflow first.
